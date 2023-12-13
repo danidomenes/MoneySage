@@ -1,0 +1,97 @@
+/* Global */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* Tela de login */
+.login-screen {
+    background-color: #171826;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container principal do login */
+.login-container {
+    background-color: #24253A;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Campos de entrada */
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 80%; /* Faz com que os campos de input ocupem 100% da largura disponível */
+    color: black; /* Defina a cor do texto para preto ou outra cor legível */
+}
+
+/* Botão de login */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px; 
+    background: linear-gradient(to right, #149D84, #126679);
+    color: white;
+    cursor: pointer;
+}
+
+/* Acessibilidade (oculta) */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Descrição do login */
+.login-description {
+    color: #D4DEE4;
+    text-align: center;
+    max-width: 260px; /* ou o valor desejado */
+    word-wrap: break-word;
+    padding-bottom: 10px; /* centralizar o texto se desejar */
+    font-size: 14px;
+}
+
+/*"Esqueceu a senha?" */
+.forgot-password {
+    color: #797F86;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Transição suave de cor */
+}
+
+/* Mouse "Esqueceu a senha?" */
+.forgot-password:hover {
+    color: #149482; /* Cor ao passar o mouse */
+}
+
+/* Título */
+h3 {
+    color: white;
+    padding: 16px;
+    padding-top: 20px; /* Espaçamento ao redor do título */
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
